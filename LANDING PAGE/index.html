@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESPONSIVE LANDING PAGE</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/13e1f1bded.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gwendolyn:wght@400;700&family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navigation">
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#more-about">More About Us</a>
+    <a href="#" id="login-link">Login</a>
+    <a href="#more-about">Contact</a>
+  </header>
+
+  <div class="container">
+    <img src="bgimg.jpg.jpg" alt="Travelling image">
+    <div class="textblock">
+      <p class="say">Say yes </p>
+      <p class="vac"> to your vacation!</p>
+    </div>
+  </div>
+
+  <section id="services">
+    <h1>Our Services <i class="fa-solid fa-paper-plane"></i></h1>
+     <div class="service-item">
+      
+      <div class="service-item1">
+        <h3>SUMMER TRAVEL</h3>
+       <p>Ditch the routine, summer's calling! Dive into crystal-clear oceans, trek through lush landscapes, or soak up the energy of bustling festivals. Savor long, sun-drenched days and starlit evenings.  Adventure awaits -  where will summer take you?  Book your escape and craft memories that last a lifetime!<p>
+      </div>
+      <div class="service-item2">
+        <h3>ACTIVE TOUR</h3>
+        <p> Challenge yourself with active tours - from gentle hikes to heart-pumping whitewater rafting. Immerse yourself in nature's beauty, conquer new heights, and return invigorated. Unleash your inner explorer - book your active summer adventure today!</p>
+      </div>
+      <div class="service-item3">
+        <h3>FLIGHT RESEARCH</h3>
+        <p>Push the boundaries of flight! Flight research propels us towards a future of faster, greener skies. From hypersonic jets to electric vertical takeoff vehicles (eVTOLs), scientists are constantly innovating.  Be a part of the journey! Explore wind tunnels, witness cutting-edge aircraft testing, and contribute to the evolution of flight.
+          </p>
+      </div>
+  </div>
+  </section>
+
+  <section id="more-about">
+    <h1 id="more">MORE ABOUT US</h1>
+    <p class="more-content">Our travel advisors are seasoned explorers, not just booking agents. They've trekked the Himalayas, cruised the Greek isles, and savored the culinary delights of Tuscany. Their firsthand knowledge ensures you craft an itinerary that goes beyond the tourist traps. We believe travel is more than checking destinations off a list. We curate personalized itineraries that immerse you in local cultures, ignite your sense of wonder, and create memories that last a lifetime.
+      </p>
+
+      <div class="contact">
+        <h2 id="contact-us">CONTACT US</h2>
+        <div class="cont">
+        <a href="#"><i class="fa-solid fa-phone"></i>   +1 1234567899</a><br>
+        <a href="#"><i class="fa-solid fa-envelope"></i>  sayyes@gmail.com</a><br>
+        <a href="#"><i class="fa-solid fa-location-dot"></i>  xyz Street,<br>
+        Bostan,<br>
+      USA</a>
+    </div>
+      </div>
+
+
+  </section>
+
+
+  <!-- Login Form Modal -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <form class="login-form">
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
